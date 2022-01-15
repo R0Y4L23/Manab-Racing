@@ -4,15 +4,15 @@ import logo from '../assets/logo.png'
 
 const Footer = () => {
     return (
-        <footer className="bg-black body-font md:pb-0 pb-10">
+        <footer className="bg-black body-font md:pb-0 pb-10 border-t-[5px] border-[#b6b6b6]">
             <div className="container px-5 mx-auto flex items-center sm:flex-row flex-col">
                 <a>
                     <Image src={logo} alt='logo' height={150} width={150} />
                 </a>
                 <p
-                    className="text-gray-500 text-lg sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                    className="text-white text-lg sm:ml-4 sm:pl-4 sm:border-l-2 text-center sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
                     © 2022 Manab Racing —
-                    <a href="https://instagram.com/manab.racing?utm_medium=copy_link" className="text-gray-600 ml-1"
+                    <a href="https://instagram.com/manab.racing?utm_medium=copy_link" className="text-white ml-1"
                         rel="noopener noreferrer" target="_blank">@manab.racing</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start text-3xl">

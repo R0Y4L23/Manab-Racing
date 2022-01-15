@@ -5,11 +5,12 @@ const DrawerComponent = ({ visible, onClose }) => {
 
     return (
         <>
-            <Drawer placement="right" onClose={onClose} visible={visible}>
+            <Drawer placement="right" onClose={onClose} visible={visible} size={"100vw"}>
                 <div className='relative h-[70vh]'>
                     <div className='text-4xl mt-20'>
                         <p className='text-[#d1222d] cursor-pointer'>Home</p>
                         <p className='cursor-pointer hover:text-[#d1222d]'>Formula Student</p>
+                        <p className='cursor-pointer hover:text-[#d1222d]'>Our Cars</p>
                         <p className='cursor-pointer hover:text-[#d1222d]'>Our Team</p>
                         <p className='cursor-pointer hover:text-[#d1222d]'>Our Sponsors</p>
                         <p className='cursor-pointer hover:text-[#d1222d]'>Support Us</p>
