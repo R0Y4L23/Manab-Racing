@@ -1,19 +1,22 @@
 import React from 'react'
+import { useRouter } from 'next/router';
 import { Drawer } from 'antd';
 
 const DrawerComponent = ({ visible, onClose }) => {
+
+    const router = useRouter();
 
     return (
         <>
             <Drawer placement="right" onClose={onClose} visible={visible} size={"100vw"}>
                 <div className='relative h-[70vh]'>
                     <div className='text-4xl mt-20'>
-                        <p className='text-[#d1222d] cursor-pointer'>Home</p>
-                        <p className='cursor-pointer hover:text-[#d1222d]'>Formula Student</p>
-                        <p className='cursor-pointer hover:text-[#d1222d]'>Our Cars</p>
-                        <p className='cursor-pointer hover:text-[#d1222d]'>Our Team</p>
-                        <p className='cursor-pointer hover:text-[#d1222d]'>Our Sponsors</p>
-                        <p className='cursor-pointer hover:text-[#d1222d]'>Support Us</p>
+                        <p className={`${router.pathname == "/" ? "text-[#d1222d]" : "hover:text-[#d1222d]"} cursor-pointer`} onClick={() => { router.push("/"); onClose() }}>Home</p>
+                        <p className={`cursor-pointer ${router.pathname == "/formulaStudent" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/formulaStudent"); onClose() }}>Formula Student</p>
+                        <p className={`cursor-pointer hover:text-[#d1222d]`}>Our Cars</p>
+                        <p className={`cursor-pointer hover:text-[#d1222d]`}>The Team</p>
+                        <p className={`cursor-pointer ${router.pathname == "/sponsors" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/sponsors"); onClose() }}>Our Sponsors</p>
+                        <p className={`cursor-pointer hover:text-[#d1222d]`}>Support Us</p>
                     </div>
                     <div className='w-full flex justify-between text-4xl absolute bottom-5 px-10'>
                         <a href="https://instagram.com/manab.racing?utm_medium=copy_link" target={"_blank"}

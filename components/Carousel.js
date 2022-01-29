@@ -8,12 +8,16 @@ const CarouselComponent = () => {
   }
 
   return (
-    <Carousel afterChange={onChange} className='border-b-[5px] border-[#b6b6b6] animate__animated animate__zoomInUp'>
-      <div className='cont'>
-      </div>
-      <div className='cont2'>
-      </div>
-    </Carousel>)
+    <div className='border-b-[5px] border-[#b6b6b6] animate__animated animate__zoomInUp md:block hidden'>
+      <Carousel afterChange={onChange}>
+        <div className='cont'>
+          <div className='overlay'></div>
+        </div>
+        <div className='cont2'>
+          <div className='overlay-2'></div>
+        </div>
+      </Carousel>
+    </div>)
 }
 
 export default CarouselComponent

@@ -23,7 +23,25 @@ a {
   background-repeat: no-repeat;
   background-clip: content-box;
   height: 90vh;
+  position: relative;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
 
 .cont2 {
   background: url(../assets/about.jpg);
@@ -52,6 +70,17 @@ a {
   .cont2 {
     width: 50vh;
   }
+}
+
+.formula-student {
+
+  background: url(../assets/formula_student.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  height: 50vh;
+
 }
 
 

@@ -4,28 +4,32 @@ import CarouselComponent from '../components/Carousel'
 import about from '../assets/about.jpg'
 import Image from 'next/image'
 import logo from '../assets/logo.png'
+import Head from 'next/head'
 
 const index = () => {
   return (
     <>
+      <Head>
+        <title>Home | Manab Racing</title>
+      </Head>
       <CarouselComponent />
       <div className='pt-20 text-6xl md:pl-32 pl-0 md:block flex flex-col justify-center items-center bg-black'>
-        <p className='text-white'>About Us</p>
+        <p className='text-white animate__animated animate__bounceInLeft'>About Us</p>
         <div className='w-32 h-1 bg-[#d1222d] rounded pt-1 pb-1'></div>
       </div>
       <section className="text-gray-600 body-font bg-black">
         <div className="container px-5 py-12 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
-            <div className="rounded-lg overflow-hidden">
-              <Image alt="content" height={2500} src={about} />
+            <div className="rounded-lg overflow-hidden animate__animated animate__bounceInRight">
+              <Image alt="content" height={2400} src={about} className='rounded-lg' />
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-white text-lg">The Team</h2>
                   <div className="w-12 h-1 bg-[#d1222d] rounded mt-2 mb-2"></div>
-                  <div className='sm:w-full w-1/2'>
-                    <Image src={logo} alt='logo' />
+                  <div className='sm:w-full w-1/2 rounded'>
+                    <Image src={logo} alt='logo' className='rounded' />
                   </div>
                 </div>
               </div>
