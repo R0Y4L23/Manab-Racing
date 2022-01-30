@@ -31,7 +31,7 @@ const Navbar = () => {
                     <p className={`cursor-pointer hover:text-[#d1222d] 2xl:mx-6 lg:mx-4`}>Our Cars</p>
                     <p className={`cursor-pointer hover:text-[#d1222d] 2xl:mx-6 lg:mx-4`}>The Team</p>
                     <p className={`cursor-pointer ${Router.pathname == "/sponsors" ? "text-[#d1222d]" : "hover:text-[#d1222d]"} 2xl:mx-6 lg:mx-4`} onClick={() => { Router.push("/sponsors") }}>Our Sponsors</p>
-                    <p className={`cursor-pointer hover:text-[#d1222d] 2xl:mx-6 lg:mx-4`}>Support Us</p>
+                    <p className={`cursor-pointer ${Router.pathname == "/supportUs" ? "text-[#d1222d]" : "hover:text-[#d1222d]"} 2xl:mx-6 lg:mx-4`} onClick={() => { Router.push("/supportUs") }}>Support Us</p>
                 </div>
                 <div
                     className='md:flex hidden justify-center 2xl:text-4xl lg:text-2xl text-base items-center lg:w-auto w-2/6'>

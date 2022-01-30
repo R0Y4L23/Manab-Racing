@@ -16,7 +16,7 @@ const DrawerComponent = ({ visible, onClose }) => {
                         <p className={`cursor-pointer hover:text-[#d1222d]`}>Our Cars</p>
                         <p className={`cursor-pointer hover:text-[#d1222d]`}>The Team</p>
                         <p className={`cursor-pointer ${router.pathname == "/sponsors" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/sponsors"); onClose() }}>Our Sponsors</p>
-                        <p className={`cursor-pointer hover:text-[#d1222d]`}>Support Us</p>
+                        <p className={`cursor-pointer ${router.pathname == "/supportUs" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/supportUs"); onClose() }}>Support Us</p>
                     </div>
                     <div className='w-full flex justify-between text-4xl absolute bottom-5 px-10'>
                         <a href="https://instagram.com/manab.racing?utm_medium=copy_link" target={"_blank"}

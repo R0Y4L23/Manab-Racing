@@ -22,8 +22,14 @@ const Sponsors = () => {
                 <title>Our Sponsors | Manab Racing</title>
             </Head>
             <div>
+
+                <div className='flex flex-col items-center justify-start md:my-20 my-12'>
+                    <p className='text-center uppercase md:text-5xl text-4xl font-bold'>Thank you For Supporting Us</p>
+                    <div className='h-1 w-[250px] bg-[#F90602]'>
+                    </div>
+                </div>
                 <div className='flex justify-center md:my-20 my-12'>
-                    <p className='md:w-1/2 w-4/5 md:text-2xl text-lg font-semibold text-center'>Our team had the privilege of being sponsored by some of the industry leaders without whom it would have never been possible for us to access the best possible resources required to satiate our never-ending thirst to do the finest engineering. Ever grateful to their technical and monetary support, each sponsor provides us with unique assistance that goes a long way from getting the tools to testing and getting the car ready in time for the events.</p>
+                    <p className='md:w-3/4 w-4/5 md:text-2xl text-lg font-semibold text-center'>Our team had the privilege of being sponsored by some of the industry leaders without whom it would have never been possible for us to access the best possible resources required to satiate our never-ending thirst to do the finest engineering. Ever grateful to their technical and monetary support, each sponsor provides us with unique assistance that goes a long way from getting the tools to testing and getting the car ready in time for the events.</p>
                 </div>
                 <div className='flex flex-col items-center justify-start md:my-20 my-12'>
                     <p className='uppercase font-bold sm:text-5xl text-3xl animate__animated animate__bounceInLeft'>Our Sponsors</p>
