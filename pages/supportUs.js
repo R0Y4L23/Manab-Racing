@@ -52,7 +52,7 @@ const SupportUs = () => {
             </div>
             <div className='md:flex justify-center bg-black text-white pb-24'>
                 <div className='md:w-[23%] animate__animated animate__bounceInRight'>
-                    <p className='text-2xl font-bold uppercase text-center'>Seminars</p>
+                    <p className='text-2xl font-bold uppercase text-center'>Webinars</p>
                     <div className='mx-auto w-32 my-5'>
                         <Image src={seminar} alt='' height={100} width={100} />
                     </div>
