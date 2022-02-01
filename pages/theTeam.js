@@ -42,6 +42,8 @@ const TheTeam = () => {
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Yash Raj</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Captain</p>
                 </div>
+            </div>
+            <div className='bg-black md:flex justify-center -mb-16'>
                 <div className='mx-8'>
                     <div className='flex justify-center'>
                         <Image className='rounded-full' src={rohit} height={250} width={250} alt='' />
