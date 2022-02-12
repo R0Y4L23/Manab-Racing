@@ -13,7 +13,7 @@ const DrawerComponent = ({ visible, onClose }) => {
                     <div className='text-4xl mt-20'>
                         <p className={`${router.pathname == "/" ? "text-[#d1222d]" : "hover:text-[#d1222d]"} cursor-pointer`} onClick={() => { router.push("/"); onClose() }}>Home</p>
                         <p className={`cursor-pointer ${router.pathname == "/formulaStudent" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/formulaStudent"); onClose() }}>Formula Student</p>
-                        <p className={`cursor-pointer hover:text-[#d1222d]`}>Our Cars</p>
+                        <p className={`cursor-pointer ${router.pathname == "/ourCars" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/ourCars"); onClose() }}>Our Cars</p>
                         <p className={`cursor-pointer ${router.pathname == "/theTeam" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/theTeam"); onClose() }}>The Team</p>
                         <p className={`cursor-pointer ${router.pathname == "/sponsors" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/sponsors"); onClose() }}>Our Sponsors</p>
                         <p className={`cursor-pointer ${router.pathname == "/supportUs" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/supportUs"); onClose() }}>Support Us</p>

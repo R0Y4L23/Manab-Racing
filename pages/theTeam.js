@@ -21,6 +21,14 @@ import saurabh from "../assets/saurabh.jpg";
 
 import subham from "../assets/subham.jpeg";
 
+import priyanshu from "../assets/priyanshu.jpg";
+import sai from "../assets/sai.jpg";
+import sreejit from "../assets/sreejit.jpg";
+import deep from "../assets/deep.jpg";
+
+import soumava from "../assets/soumava.jpg";
+import partha from "../assets/partha.jpg";
+
 const TheTeam = () => {
     return (
         <>
@@ -34,7 +42,7 @@ const TheTeam = () => {
                 </div>
                 <p className='text-white pt-12 text-4xl font-bold uppercase text-center'>Management</p>
             </div>
-            <div className='bg-black md:flex justify-center -mb-16'>
+            <div className='bg-black md:flex justify-center -mb-6'>
                 <div className='mx-8'>
                     <div className='flex justify-center'>
                         <Image className='rounded-full' src={example} height={250} width={250} alt='' />
@@ -43,7 +51,7 @@ const TheTeam = () => {
                     <p className='text-white text-center text-lg transform -translate-y-5'>Captain</p>
                 </div>
             </div>
-            <div className='bg-black md:flex justify-center -mb-16'>
+            <div className='bg-black md:flex justify-center -mb-2'>
                 <div className='mx-8'>
                     <div className='flex justify-center'>
                         <Image className='rounded-full' src={rohit} height={250} width={250} alt='' />
@@ -73,55 +81,10 @@ const TheTeam = () => {
                     <p className='text-white text-center text-lg transform -translate-y-5'>Finance Head</p>
                 </div>
             </div>
-            <div className='flex flex-col items-center justify-start pt-20 pb-20 bg-black'>
-                <p className='text-white text-4xl font-bold uppercase text-center'>Technical Heads</p>
+            <div className='flex justify-center items-center bg-black pt-20 -mt-5'>
+                <div className='h-[2px] w-[250px] bg-[#F90602]'></div>
             </div>
-            <div className='bg-black md:flex justify-center -mb-5'>
-                <div className='mx-8'>
-                    <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
-                    </div>
-                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Badal Kumar</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Bodyworks Head</p>
-                </div>
-                <div className='mx-8'>
-                    <div className='flex justify-center'>
-                        <Image className='rounded-full' src={tanya} height={250} width={250} alt='' />
-                    </div>
-                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Tanya Sinha</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Brakes Head</p>
-                </div>
-                <div className='mx-8'>
-                    <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
-                    </div>
-                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Rachit Raj</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Electronics Head</p>
-                </div>
-                <div className='mx-8'>
-                    <div className='flex justify-center'>
-                        <Image className='rounded-full' src={himanshu} height={250} width={250} alt='' />
-                    </div>
-                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Himanshu Kumar</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Engine Head</p>
-                </div>
-            </div>
-            <div className='bg-black md:flex justify-center -mb-5'>
-                <div className='mx-8'>
-                    <div className='flex justify-center'>
-                        <Image className='rounded-full' src={apoorv} height={250} width={250} alt='' />
-                    </div>
-                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Apoorv Anand</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Suspension Head</p>
-                </div>
-                <div className='mx-8'>
-                    <div className='flex justify-center'>
-                        <Image className='rounded-full' src={rohit} height={250} width={250} alt='' />
-                    </div>
-                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Rohit Kumar</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Steering Head</p>
-                </div>
-            </div>
+
             <div className='flex flex-col items-center justify-start pt-20 pb-20 bg-black'>
                 <p className='text-white text-4xl font-bold uppercase text-center'>Vehicle Dynamics Department</p>
             </div>
@@ -145,7 +108,14 @@ const TheTeam = () => {
                         <Image className='rounded-full' src={example} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Manish Kumar</p>
-                    <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
+                    <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
+                </div>
+                <div className='mx-8'>
+                    <div className='flex justify-center'>
+                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                    </div>
+                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Sachin Kumar</p>
+                    <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
                 </div>
             </div>
             <div className='bg-black md:flex justify-center -mb-5'>
@@ -165,7 +135,7 @@ const TheTeam = () => {
                 </div>
                 <div className='mx-8'>
                     <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                        <Image className='rounded-full' src={priyanshu} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Priyanshu Mandal</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
@@ -196,6 +166,13 @@ const TheTeam = () => {
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Badal Kumar</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
                 </div>
+                <div className='mx-8'>
+                    <div className='flex justify-center'>
+                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                    </div>
+                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
+                    <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
+                </div>
             </div>
             <div className='bg-black md:flex justify-center -mb-5'>
                 <div className='mx-8'>
@@ -214,14 +191,14 @@ const TheTeam = () => {
                 </div>
                 <div className='mx-8'>
                     <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                        <Image className='rounded-full' src={partha} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Partha Pratim</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
                 </div>
                 <div className='mx-8'>
                     <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                        <Image className='rounded-full' src={soumava} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Soumava</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
@@ -249,7 +226,7 @@ const TheTeam = () => {
                 </div>
                 <div className='md:mx-24 mx-8'>
                     <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                        <Image className='rounded-full' src={sai} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Sai Gopal Chhetri</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
@@ -266,16 +243,23 @@ const TheTeam = () => {
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Rachit Raj</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
                 </div>
+                <div className='mx-8'>
+                    <div className='flex justify-center'>
+                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                    </div>
+                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
+                    <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
+                </div>
             </div>
             <div className='bg-black md:flex justify-center -mb-5'>
-                <div className='md:mx-24 mx-8'>
+                <div className='md:mx-44 mx-8'>
                     <div className='flex justify-center'>
                         <Image className='rounded-full' src={subham} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Subham Roy</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
                 </div>
-                <div className='md:mx-24 mx-8'>
+                <div className='md:mx-44 mx-8'>
                     <div className='flex justify-center'>
                         <Image className='rounded-full' src={example} height={250} width={250} alt='' />
                     </div>
@@ -294,18 +278,25 @@ const TheTeam = () => {
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Himanshu Kumar</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
                 </div>
-            </div>
-            <div className='bg-black md:flex justify-center -mb-5'>
-                <div className='md:mx-24 mx-8'>
+                <div className='mx-8'>
                     <div className='flex justify-center'>
                         <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                    </div>
+                    <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
+                    <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
+                </div>
+            </div>
+            <div className='bg-black md:flex justify-center -mb-5'>
+                <div className='md:mx-44 mx-8'>
+                    <div className='flex justify-center'>
+                        <Image className='rounded-full' src={deep} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Deep Raj Bera</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
                 </div>
-                <div className='md:mx-24 mx-8'>
+                <div className='md:mx-44 mx-8'>
                     <div className='flex justify-center'>
-                        <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                        <Image className='rounded-full' src={sreejit} height={250} width={250} alt='' />
                     </div>
                     <p className='text-[#F90602] text-center text-3xl font-semibold'>Sreejit Paul</p>
                     <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
