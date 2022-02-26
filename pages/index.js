@@ -78,9 +78,13 @@ const Index = () => {
             <section className="text-white body-font sm:pl-32 pl-5 sm:text-3xl text-lg mt-20 sm:w-1/2 w-full sm:text-left text-center sm:pr-0 pr-5">
               <p>Yash Raj</p>
               <p><i className="fa-solid fa-phone"></i> +91 7779820434</p>
-              <p className='mt-12'>Rohit Kumar</p>
+              <p>Rohit Kumar</p>
               <p><i className="fa-solid fa-phone"></i> +91 7050132921</p>
-              <p className='mt-12'><i className="fa-solid fa-envelope"></i> manabracing.hit@gmail.com</p>
+              <p>Kaustav Ghosh</p>
+              <p><i className="fa-solid fa-phone"></i> +91 7283029997</p>
+              <p>Apoorv Anand</p>
+              <p><i className="fa-solid fa-phone"></i> +91 7781056850</p>
+              <p><i className="fa-solid fa-envelope"></i> manabracing.hit@gmail.com</p>
               <p><i className="fa-solid fa-location-dot"></i> Haldia Institute Of Technology, HIT College Rd, Kshudiram Nagar, Haldia, West Bengal 721657</p>
             </section>
           </div>
