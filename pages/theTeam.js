@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head';
 import Image from 'next/image';
-import Loading from '../components/Loading';
+import Loading from '../components/loading';
 import example from "../assets/user.png";
 import rohit from "../assets/Rohit.jpg";
 import apoorv from "../assets/apoorv.jpg";

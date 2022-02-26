@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import Head from 'next/head';
-import Loading from '../components/Loading';
+import Loading from '../components/loading';
 import soft_sponsor_1 from "../assets/manab_racing_soft_sponsor_1.png";
 import soft_sponsor_2 from "../assets/manab_racing_soft_sponsor_2.png";
 import soft_sponsor_3 from "../assets/manab_racing_soft_sponsor_3.png";

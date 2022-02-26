@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head';
-import Loading from '../components/Loading';
+import Loading from '../components/loading';
 
 const FormulaStudent = () => {
 

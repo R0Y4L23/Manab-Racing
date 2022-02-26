@@ -5,7 +5,7 @@ import about from '../assets/about.jpg'
 import Image from 'next/image'
 import logo from '../assets/logo.png'
 import Head from 'next/head'
-import Loading from '../components/Loading';
+import Loading from '../components/loading';
 import Router from 'next/router'
 
 const Index = () => {

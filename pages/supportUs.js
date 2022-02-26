@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head';
 import Image from 'next/image';
-import Loading from '../components/Loading';
+import Loading from '../components/loading';
 
 import pbd from "../assets/positive_brand_development.png";
 import visibility from "../assets/visibility.png";
