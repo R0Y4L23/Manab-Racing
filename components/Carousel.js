@@ -8,7 +8,7 @@ const CarouselComponent = () => {
   }
 
   return (
-    <div className='border-b-[5px] border-[#b6b6b6] animate__animated animate__zoomInUp md:block hidden'>
+    <div className='border-b-[5px] border-[#b6b6b6] md:block hidden'>
       <Carousel afterChange={onChange}>
         <div className='cont'>
           <div className='overlay'></div>
