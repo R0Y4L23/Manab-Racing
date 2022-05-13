@@ -27,8 +27,18 @@ import sai from "../assets/sai.jpg";
 import sreejit from "../assets/sreejit.jpg";
 import deep from "../assets/deep.jpg";
 
-import soumava from "../assets/soumava.jpg";
+//import soumava from "../assets/soumava.jpg";
 import partha from "../assets/partha.jpg";
+
+//import rohit from "../assets/rohit.jpg";
+import manish from "../assets/manish.jpg";
+import badal from "../assets/badal.jpg";
+import sachin from "../assets/sachin.jpg";
+import rachit from "../assets/rachit.jpg";
+import yash from "../assets/yash.jpg";
+import soumyadip from "../assets/soumyadip.jpg";
+import prashant from "../assets/prashant.jpg";
+import kaustav from "../assets/kaustav.jpeg";
 
 const TheTeam = () => {
 
@@ -56,7 +66,7 @@ const TheTeam = () => {
                 <div className='bg-black md:flex justify-center -mb-6'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={yash} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Yash Raj</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Captain</p>
@@ -79,7 +89,7 @@ const TheTeam = () => {
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={kaustav} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Sponsor & Media Head</p>
@@ -114,18 +124,27 @@ const TheTeam = () => {
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Rohit Kumar</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
                     </div>
+                </div>
+                <div className='bg-black md:flex justify-center -mb-5'>    
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={manish} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Manish Kumar</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={sachin} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Sachin Kumar</p>
+                        <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
+                    </div>
+                    <div className='mx-8'>
+                        <div className='flex justify-center'>
+                            <Image className='rounded-full' src={prashant} height={250} width={250} alt='' />
+                        </div>
+                        <p className='text-[#F90602] text-center text-3xl font-semibold'>Prashant Kumar</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
                     </div>
                 </div>
@@ -172,14 +191,14 @@ const TheTeam = () => {
                 <div className='bg-black md:flex justify-center -mb-5'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={badal} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Badal Kumar</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={kaustav} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
@@ -207,13 +226,13 @@ const TheTeam = () => {
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Partha Pratim</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
                     </div>
-                    <div className='mx-8'>
+                    {/* <div className='mx-8'>
                         <div className='flex justify-center'>
                             <Image className='rounded-full' src={soumava} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Soumava</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex flex-col items-center justify-start pt-20 pb-20 bg-black'>
                     <p className='text-white text-4xl font-bold uppercase text-center'>Brakes Department</p>
@@ -249,14 +268,14 @@ const TheTeam = () => {
                 <div className='bg-black md:flex justify-center -mb-5'>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={rachit} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Rachit Raj</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Head</p>
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={kaustav} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
@@ -272,7 +291,7 @@ const TheTeam = () => {
                     </div>
                     <div className='md:mx-44 mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={soumyadip} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Soumyadip Samanta</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
@@ -291,7 +310,7 @@ const TheTeam = () => {
                     </div>
                     <div className='mx-8'>
                         <div className='flex justify-center'>
-                            <Image className='rounded-full' src={example} height={250} width={250} alt='' />
+                            <Image className='rounded-full' src={kaustav} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Kaustav Ghosh</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
