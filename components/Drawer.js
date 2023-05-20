@@ -16,19 +16,8 @@ const DrawerComponent = ({ visible, onClose }) => {
                         <p className={`cursor-pointer ${router.pathname == "/ourCars" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/ourCars"); onClose() }}>Our Cars</p>
                         <p className={`cursor-pointer ${router.pathname == "/theTeam" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/theTeam"); onClose() }}>The Team</p>
                         <p className={`cursor-pointer ${router.pathname == "/sponsors" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/sponsors"); onClose() }}>Our Sponsors</p>
+                        <p className={`cursor-pointer ${router.pathname == "/gallery" ? "text-[#d1222d]" : "hover:text-[#d1222d]"} 2xl:mx-6 lg:mx-4`} onClick={() => { router.push("/gallery") }}>Gallery</p>
                         <p className={`cursor-pointer ${router.pathname == "/supportUs" ? "text-[#d1222d]" : "hover:text-[#d1222d]"}`} onClick={() => { router.push("/supportUs"); onClose() }}>Support Us</p>
-                    </div>
-                    <div className='w-full flex justify-between text-4xl absolute bottom-5 px-10'>
-                        <a href="https://instagram.com/manab.racing?utm_medium=copy_link" target={"_blank"}
-                            rel="noreferrer"><i
-                                className="fab fa-instagram cursor-pointer text-[#b6b6b6] hover:text-[#d1222d]"></i></a>
-                        <a href="https://www.linkedin.com/company/manab-racing" target={"_blank"} rel="noreferrer"><i
-                            className="fab fa-linkedin-in cursor-pointer text-[#b6b6b6] hover:text-[#d1222d]"></i></a>
-                        <a href="https://youtube.com/channel/UCF1g28AvE2Ca89EQQ8S3LFg" target={"_blank"}
-                            rel="noreferrer"><i
-                                className="fab fa-youtube cursor-pointer text-[#b6b6b6] hover:text-[#d1222d]"></i></a>
-                        <a href="https://www.facebook.com/manabracing/" target={"_blank"} rel="noreferrer"><i
-                            className="fab fa-facebook-f cursor-pointer text-[#b6b6b6] hover:text-[#d1222d]"></i></a>
                     </div>
                 </div>
             </Drawer>

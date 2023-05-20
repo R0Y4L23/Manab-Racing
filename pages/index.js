@@ -36,7 +36,7 @@ const Index = () => {
             <div className="container px-5 py-12 mx-auto flex flex-col">
               <div className="lg:w-4/6 mx-auto">
                 <div className="rounded-lg overflow-hidden animate__animated animate__bounceInRight">
-                  <Image alt="content" height={2400} src={about} className='rounded-lg' />
+                  <Image alt="content" height={2000} width={3000} src={about} className='rounded-lg' />
                 </div>
                 <div className="flex flex-col sm:flex-row mt-10">
                   <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -76,21 +76,33 @@ const Index = () => {
               <div className='w-32 h-1 bg-[#d1222d] rounded pt-1 pb-1'></div>
             </div>
             <section className="text-white body-font sm:pl-32 pl-5 sm:text-3xl text-lg mt-20 sm:w-1/2 w-full sm:text-left text-center sm:pr-0 pr-5">
-              <p>Yash Raj</p>
-              <p><i className="fa-solid fa-phone"></i> +91 7779820434</p>
-              <p>Rohit Kumar</p>
-              <p><i className="fa-solid fa-phone"></i> +91 7050132921</p>
-              <p>Kaustav Ghosh</p>
-              <p><i className="fa-solid fa-phone"></i> +91 7283029997</p>
-              <p>Apoorv Anand</p>
-              <p><i className="fa-solid fa-phone"></i> +91 7781056850</p>
+              <p>Partha Pratim Das</p>
+              <p><i className="fa-solid fa-phone"></i> +91 8918689604</p>
               <p><i className="fa-solid fa-envelope"></i> manabracing.hit@gmail.com</p>
               <p><i className="fa-solid fa-location-dot"></i> Haldia Institute Of Technology, HIT College Rd, Kshudiram Nagar, Haldia, West Bengal 721657</p>
             </section>
+            <section className="text-gray-600 body-font relative">
+  <div className="absolute inset-0 bg-gray-300">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1084.263179357764!2d88.07326436984202!3d22.051268391785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1684585809308!5m2!1sen!2sin" width={"100%"} height={"100%"}></iframe>
+  </div>
+  <div className="container px-5 py-24 mx-auto flex">
+    <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+      <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+      <div className="relative mb-4">
+        <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-[#F90602] focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+      </div>
+      <div className="relative mb-4">
+        <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
+        <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-[#F90602] focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <button className="text-white bg-[#F90602] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+    </div>
+  </div>
+</section>
           </div>
-
-
         </div>
+       
       </>
     )
   else

@@ -37,7 +37,7 @@ const FormulaStudent = () => {
                     <div className='h-[2px] w-[200px] bg-[#F90602]'>
                     </div>
                 </div>
-                <div className='flex flex-col items-center bg-black'>
+                <div className='flex flex-col items-center bg-black pb-20'>
                     <p className='sm:w-2/3 w-4/5 sm:text-xl text-base text-white'>The teams have to present a coherent overall concept at the events. The competitions are divided into static disciplines, which are made up of a business plan presentation, cost event, and engineering design event. In addition, the dynamic disciplines Skid-Pad, Acceleration, Autocross, and Endurance. With Fuel Efficiency, the consumption during the endurance race is included in the overall rating. Before you can start in the dynamic disciplines, the vehicles are checked for safety by members of the Formula Student jury. The jury is made up of experts from the motorsport, automotive, and supplier industries.</p>
                 </div>
             </>
