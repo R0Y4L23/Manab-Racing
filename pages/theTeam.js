@@ -617,6 +617,13 @@ const TheTeam = () => {
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Ajeet Kumar</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Brakes Member</p>
                     </div>
+                    <div className='mx-8'>
+                        <div className='flex justify-center'>
+                            <Image className='rounded-full' src={nasir} height={250} width={250} alt='' />
+                        </div>
+                        <p className='text-[#F90602] text-center text-3xl font-semibold'>Nasir Hussain</p>
+                        <p className='text-white text-center text-lg transform -translate-y-5'>Electronics Member</p>
+                    </div>
                     </div></>}
 
 
