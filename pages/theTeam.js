@@ -53,6 +53,8 @@ import gaurav from "../assets/gaurav.jpg";
 import ajeet from "../assets/ajeet.jpg";
 import nasir from "../assets/nasir.jpg";
 import sudeshnu from "../assets/sudeshnu.jpg";
+import abhishek from "../assets/abhishek.jpg";
+import dipraj from "../assets/dipraj.jpg";
 import { ANT_MARK } from 'antd/lib/locale-provider';
 
 
@@ -76,7 +78,7 @@ const TheTeam = () => {
                 <Head>
                     <title>The Team | Manab Racing</title>
                 </Head>
-
+                
                 <div className='flex flex-col items-center justify-start pt-20 pb-20 bg-black'>
                     <div className='flex flex-row justify-center items-center min-[425px]:gap-x-16'>
                         <div className='min-[425px]:scale-[100%] min-[425px]:ml-0 -ml-10 scale-[60%]'>
@@ -401,6 +403,13 @@ const TheTeam = () => {
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Saurabh Choudhary</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Co-Head</p>
                     </div>
+                    <div className='mx-8'>
+                        <div className='flex justify-center'>
+                            <Image className='rounded-full' src={dipraj} height={250} width={250} alt='' />
+                        </div>
+                        <p className='text-[#F90602] text-center text-3xl font-semibold'>Dipraj Yadav</p>
+                        <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
+                    </div>
                 </div></>}
 
 
@@ -456,6 +465,13 @@ const TheTeam = () => {
                             <Image className='rounded-full' src={kaushik} height={250} width={250} alt='' />
                         </div>
                         <p className='text-[#F90602] text-center text-3xl font-semibold'>Kumar Kaushik</p>
+                        <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
+                    </div>
+                    <div className='mx-8'>
+                        <div className='flex justify-center'>
+                            <Image className='rounded-full' src={abhishek} height={250} width={250} alt='' />
+                        </div>
+                        <p className='text-[#F90602] text-center text-3xl font-semibold'>Abhishek Paul</p>
                         <p className='text-white text-center text-lg transform -translate-y-5'>Member</p>
                     </div>
                 </div></>}
@@ -645,7 +661,7 @@ const TheTeam = () => {
                         <p className='text-white text-center text-lg transform -translate-y-5'>Bodyworks Member</p>
                     </div>
                     </div></>}
-
+                     
 
                   
 
