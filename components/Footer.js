@@ -11,7 +11,7 @@ const Footer = () => {
                 </a>
                 <p
                     className="text-white text-lg sm:ml-4 sm:pl-4 sm:border-l-2 text-center sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-                    © 2022 Manab Racing —
+                    © 2024 Manab Racing —
                     <a href="https://www.instagram.com/manabracing/" className="text-white ml-1"
                         rel="noopener noreferrer" target="_blank">@manab.racing</a>
                 </p>
